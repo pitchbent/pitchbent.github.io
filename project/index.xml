@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Academic</title>
+    <title>Projects | The Blog Of Julius Bartel</title>
     <link>https://example.com/project/</link>
       <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Sep 2020 18:32:20 +0200</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,153 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://example.com/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>ESP8266 vs STM32</title>
+      <link>https://example.com/project/esp32vsstm32/</link>
+      <pubDate>Tue, 22 Sep 2020 18:32:20 +0200</pubDate>
+      <guid>https://example.com/project/esp32vsstm32/</guid>
+      <description>&lt;p&gt;As a proof of concept and to test my skills I learned during my internship I decided to design a board which combines a basic STM32 processor with the wireless capabilities of an ESP8266 module.&lt;/p&gt;
+&lt;p&gt;With this project I want to learn about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Layouting of microprocessors&lt;/li&gt;
+&lt;li&gt;Programming STM32s&lt;/li&gt;
+&lt;li&gt;Programming ESP8266s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The board turned out to be a little bit big, but it is working. I am able to flash the processors and make the onboard LEDs blink.&lt;/p&gt;
+&lt;p&gt;This project will keep me busy for some time, because I want to use it for small IoT projects (home automation) like an irrigation system for my many, many plants.&lt;/p&gt;
+&lt;h2 id=&#34;schematics&#34;&gt;Schematics&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./stm32.png&#34; alt=&#34;STM32&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./esp.png&#34; alt=&#34;ESP&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The processor I used is an STM32F103C8T6 as well as an ESP8266-WROOM. Most of the schematics is taken from app notes from ST or Espressif. The two processors are connected via UART.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./everythingelse.png&#34; alt=&#34;Everything else&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Power is regulated with an linear regulator, which brings 5V down to 3.3V.&lt;/p&gt;
+&lt;p&gt;Additionally there are some built in LEDs. One for power monitoring and one for each microcontroller as status LED.&lt;/p&gt;
+&lt;p&gt;The buttons are necessary for programming the chips. All the STM32 pins are broken out to the side, where pin headers can be soldered in.&lt;/p&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./layout.png&#34; alt=&#34;Layout&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The Layout, as well as the Schematics were done in Altium. It is a simple two layer layout with components only on the top side. The bottom layer features a big grounded copper pour.&lt;/p&gt;
+&lt;p&gt;The crystal oscillator features a guard ring.&lt;/p&gt;
+&lt;h2 id=&#34;assembly&#34;&gt;Assembly&lt;/h2&gt;
+&lt;p&gt;The PCB was ordered from JLC PCB because their prices can&amp;rsquo;t compete with the prices from european fabs. Parts were ordered from LCSC because they mostly are much cheaper than Digikey or Mouser.&lt;/p&gt;
+&lt;p&gt;I hand soldered the board. It was quite easy, because of the low part count and because no &amp;ldquo;crazy&amp;rdquo; footprints were used.&lt;/p&gt;
+&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
+&lt;p&gt;Not much to say about this right now, because I did not find much time to care about this. I was able to flash the chips tho, but only made the LEDs blink. More to come!&lt;/p&gt;
+&lt;p&gt;Update: There is, at least, a pinout now:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./pinout.png&#34; alt=&#34;Pinout&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quad VCA</title>
+      <link>https://example.com/project/quad_vca/</link>
+      <pubDate>Mon, 24 Aug 2020 14:28:47 +0200</pubDate>
+      <guid>https://example.com/project/quad_vca/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;I need some VCAs. Quickly and as cheaply as possible. I&amp;rsquo;m not happy with the avaiable DIY modules. I thought about creating a SMD version of the&lt;a href=&#34;dintree.com&#34; title=&#34;VCA&#34;&gt;Dintree Quad VCA&lt;/a&gt;, but it is exponential only. I want a linear option as well.
+I decided to still use the SSM2164 because it is used in one of my modules I&amp;rsquo;m building, too.&lt;/p&gt;
+&lt;p&gt;There is a circuit in the &lt;a href=&#34;http://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;datasheet&lt;/a&gt; which describes how to convert the exponential response to a linear one using an additional SSM2164 cell.&lt;/p&gt;
+&lt;p&gt;Adding on top of this I want to have a couple of LEDs &amp;ldquo;showing&amp;rdquo; the CV. This will be done by putting two LEDs (or one bidirectional) in the feedback path of an opamp. This will not be a 100% correct representation, because that is not how we percept change of brightness, but it will be good enough for me (There is something called an &lt;a href=&#34;https://www.sound-au.com/project62a.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;s-curve&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;h2 id=&#34;assembly&#34;&gt;Assembly&lt;/h2&gt;
 </description>
     </item>
     

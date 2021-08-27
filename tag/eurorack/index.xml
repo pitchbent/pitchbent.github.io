@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eurorack | Academic</title>
+    <title>Eurorack | The Blog Of Julius Bartel</title>
     <link>https://example.com/tag/eurorack/</link>
       <atom:link href="https://example.com/tag/eurorack/index.xml" rel="self" type="application/rss+xml" />
     <description>Eurorack</description>
@@ -153,6 +153,21 @@ It is missing the mechanical parts and the SSM2164 chip.&lt;/p&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 This module will be my MIDI to CV bridge. It is based on the Mutable Instruments Yarns. It is obviously missing the mechanical parts. I did not solder the STM32, the DAC and the optocoupler yet, because I want to test the power rails first.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quad VCA</title>
+      <link>https://example.com/project/quad_vca/</link>
+      <pubDate>Mon, 24 Aug 2020 14:28:47 +0200</pubDate>
+      <guid>https://example.com/project/quad_vca/</guid>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;I need some VCAs. Quickly and as cheaply as possible. I&amp;rsquo;m not happy with the avaiable DIY modules. I thought about creating a SMD version of the&lt;a href=&#34;dintree.com&#34; title=&#34;VCA&#34;&gt;Dintree Quad VCA&lt;/a&gt;, but it is exponential only. I want a linear option as well.
+I decided to still use the SSM2164 because it is used in one of my modules I&amp;rsquo;m building, too.&lt;/p&gt;
+&lt;p&gt;There is a circuit in the &lt;a href=&#34;http://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;datasheet&lt;/a&gt; which describes how to convert the exponential response to a linear one using an additional SSM2164 cell.&lt;/p&gt;
+&lt;p&gt;Adding on top of this I want to have a couple of LEDs &amp;ldquo;showing&amp;rdquo; the CV. This will be done by putting two LEDs (or one bidirectional) in the feedback path of an opamp. This will not be a 100% correct representation, because that is not how we percept change of brightness, but it will be good enough for me (There is something called an &lt;a href=&#34;https://www.sound-au.com/project62a.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;s-curve&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;h2 id=&#34;assembly&#34;&gt;Assembly&lt;/h2&gt;
 </description>
     </item>
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microcontroller | Academic</title>
+    <title>Microcontroller | The Blog Of Julius Bartel</title>
     <link>https://example.com/tag/microcontroller/</link>
       <atom:link href="https://example.com/tag/microcontroller/index.xml" rel="self" type="application/rss+xml" />
     <description>Microcontroller</description>
@@ -19,6 +19,142 @@
       <guid>https://example.com/post/pinout/</guid>
       <description>&lt;p&gt;I recently drew a pinout for my board, looks quite okay. I made it using GoodNotes on my iPad, because i do not know a single thing about Inkscape. It does not
 look as fancy as the &amp;ldquo;Arduino Pinouts&amp;rdquo;, but it&amp;rsquo;s something I can work with.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ESP8266 vs STM32</title>
+      <link>https://example.com/project/esp32vsstm32/</link>
+      <pubDate>Tue, 22 Sep 2020 18:32:20 +0200</pubDate>
+      <guid>https://example.com/project/esp32vsstm32/</guid>
+      <description>&lt;p&gt;As a proof of concept and to test my skills I learned during my internship I decided to design a board which combines a basic STM32 processor with the wireless capabilities of an ESP8266 module.&lt;/p&gt;
+&lt;p&gt;With this project I want to learn about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Layouting of microprocessors&lt;/li&gt;
+&lt;li&gt;Programming STM32s&lt;/li&gt;
+&lt;li&gt;Programming ESP8266s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The board turned out to be a little bit big, but it is working. I am able to flash the processors and make the onboard LEDs blink.&lt;/p&gt;
+&lt;p&gt;This project will keep me busy for some time, because I want to use it for small IoT projects (home automation) like an irrigation system for my many, many plants.&lt;/p&gt;
+&lt;h2 id=&#34;schematics&#34;&gt;Schematics&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./stm32.png&#34; alt=&#34;STM32&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./esp.png&#34; alt=&#34;ESP&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The processor I used is an STM32F103C8T6 as well as an ESP8266-WROOM. Most of the schematics is taken from app notes from ST or Espressif. The two processors are connected via UART.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./everythingelse.png&#34; alt=&#34;Everything else&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Power is regulated with an linear regulator, which brings 5V down to 3.3V.&lt;/p&gt;
+&lt;p&gt;Additionally there are some built in LEDs. One for power monitoring and one for each microcontroller as status LED.&lt;/p&gt;
+&lt;p&gt;The buttons are necessary for programming the chips. All the STM32 pins are broken out to the side, where pin headers can be soldered in.&lt;/p&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./layout.png&#34; alt=&#34;Layout&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The Layout, as well as the Schematics were done in Altium. It is a simple two layer layout with components only on the top side. The bottom layer features a big grounded copper pour.&lt;/p&gt;
+&lt;p&gt;The crystal oscillator features a guard ring.&lt;/p&gt;
+&lt;h2 id=&#34;assembly&#34;&gt;Assembly&lt;/h2&gt;
+&lt;p&gt;The PCB was ordered from JLC PCB because their prices can&amp;rsquo;t compete with the prices from european fabs. Parts were ordered from LCSC because they mostly are much cheaper than Digikey or Mouser.&lt;/p&gt;
+&lt;p&gt;I hand soldered the board. It was quite easy, because of the low part count and because no &amp;ldquo;crazy&amp;rdquo; footprints were used.&lt;/p&gt;
+&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
+&lt;p&gt;Not much to say about this right now, because I did not find much time to care about this. I was able to flash the chips tho, but only made the LEDs blink. More to come!&lt;/p&gt;
+&lt;p&gt;Update: There is, at least, a pinout now:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./pinout.png&#34; alt=&#34;Pinout&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
