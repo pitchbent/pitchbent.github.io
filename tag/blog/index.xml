@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog | Academic</title>
+    <link>https://example.com/tag/blog/</link>
+      <atom:link href="https://example.com/tag/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>blog</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2020 15:04:30 +0200</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>blog</title>
+      <link>https://example.com/tag/blog/</link>
+    </image>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://example.com/post/hello_world/</link>
+      <pubDate>Mon, 24 Aug 2020 15:04:30 +0200</pubDate>
+      <guid>https://example.com/post/hello_world/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
+&lt;h2 id=&#34;welcome&#34;&gt;Welcome&lt;/h2&gt;
+&lt;p&gt;Welcome to my humble blog. I will use this webpage to showcase my projects.
+Expect posts and projects about embedded programming and electronics, often related to music.&lt;/p&gt;
+&lt;h2 id=&#34;where-it-runs&#34;&gt;Where it runs&lt;/h2&gt;
+&lt;p&gt;To teach me something about Linux, I decided to host this blog by myself. It runs on a Raspberry Pi with an SSD, sitting in my flat.
+The blog itself is based on Hugo with the Academic Theme.&lt;/p&gt;
+&lt;h4 id=&#34;enjoy&#34;&gt;Enjoy!&lt;/h4&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

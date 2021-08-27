@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microcontroller | Academic</title>
+    <link>https://example.com/tag/microcontroller/</link>
+      <atom:link href="https://example.com/tag/microcontroller/index.xml" rel="self" type="application/rss+xml" />
+    <description>Microcontroller</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 06 Oct 2020 14:25:21 +0200</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Microcontroller</title>
+      <link>https://example.com/tag/microcontroller/</link>
+    </image>
+    
+    <item>
+      <title>Pinout</title>
+      <link>https://example.com/post/pinout/</link>
+      <pubDate>Tue, 06 Oct 2020 14:25:21 +0200</pubDate>
+      <guid>https://example.com/post/pinout/</guid>
+      <description>&lt;p&gt;I recently drew a pinout for my board, looks quite okay. I made it using GoodNotes on my iPad, because i do not know a single thing about Inkscape. It does not
+look as fancy as the &amp;ldquo;Arduino Pinouts&amp;rdquo;, but it&amp;rsquo;s something I can work with.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

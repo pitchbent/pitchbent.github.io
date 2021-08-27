@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eurorack | Academic</title>
+    <link>https://example.com/category/eurorack/</link>
+      <atom:link href="https://example.com/category/eurorack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eurorack</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2020 14:43:38 +0200</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Eurorack</title>
+      <link>https://example.com/category/eurorack/</link>
+    </image>
+    
+    <item>
+      <title>Rack</title>
+      <link>https://example.com/post/rack/</link>
+      <pubDate>Mon, 21 Sep 2020 14:43:38 +0200</pubDate>
+      <guid>https://example.com/post/rack/</guid>
+      <description>&lt;p&gt;In this little blog post I will describe how I built a small rack by myself. The size is 19inch/68HP with a standard height of 3U. There are two rows.&lt;/p&gt;
+&lt;h2 id=&#34;case&#34;&gt;Case&lt;/h2&gt;
+&lt;p&gt;The case is made of plywood, with a depth of 20.5cm - this more than enough for large modules and the power supplies in the back.&lt;/p&gt;
+&lt;h2 id=&#34;power&#34;&gt;Power&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./power.jpg&#34; alt=&#34;Power&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+I didn&amp;rsquo;t bother with linear power supplies because switching supplies were a lot cheaper, with good specs. I used Meanwell supplies. I am thinking about building a power supply by myself, with switching supplies as &amp;ldquo;core&amp;rdquo; and linear regulators as output stage to smoothen the ripple - but not any time soon.&lt;/p&gt;
+&lt;p&gt;The supplies I used feature +-12V as well as 5V rail.
+I designed and 3D-printed a brace to screw the 5V supply to the backside of the case, the 12V supplies were mounted using the built in holes.&lt;/p&gt;
+&lt;p&gt;Power distribution was realized by using stripboard and regular eurorack headers.&lt;/p&gt;
+&lt;p&gt;The port for the AC-Mains cable features a fuse for additional security.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Almost Finished PCBs</title>
+      <link>https://example.com/post/almost-finished-pcbs/</link>
+      <pubDate>Mon, 21 Sep 2020 09:16:50 +0200</pubDate>
+      <guid>https://example.com/post/almost-finished-pcbs/</guid>
+      <description>&lt;p&gt;Finally, it is coming to an end. What started a few months back is finally taking shape. The first four modules are about to be finished.&lt;/p&gt;
+&lt;p&gt;The only parts still missing are the jacks as well as the potentiometers and the SSM2164 chip for the filter.
+I will order those parts from &lt;a href=&#34;http://www.thonk.co.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Thonk&lt;/a&gt;, because there is no cheap alternative distributor available which sells directly from china.&lt;/p&gt;
+&lt;p&gt;Testing is not done yet as well, because my beloved makerspace &lt;a href=&#34;http://www.raumzeitlabor.de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raumzeitlabor&lt;/a&gt; is currently moving and because of this I do not have access to proper testing equipment.&lt;/p&gt;
+&lt;p&gt;I am building the following four modules, which will form a nice drum voice when my  VCA is finished:&lt;/p&gt;
+&lt;h2 id=&#34;krach-aus-strom&#34;&gt;Krach aus Strom&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./kas.jpg&#34; alt=&#34;KAS&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+This will be the main part of the drum voice. It&amp;rsquo;s only missing mechanical parts.&lt;/p&gt;
+&lt;h2 id=&#34;dual-adsr&#34;&gt;Dual ADSR&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./dualadsr.jpg&#34; alt=&#34;Dual ADSR&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The name already shows what this module is about - a dual ADSR with fancy faders, which light up according to the triggered stage. It is missing the mechanical parts as well.&lt;/p&gt;
+&lt;h2 id=&#34;wavelet&#34;&gt;Wavelet&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./wavelet.jpg&#34; alt=&#34;Wavelet&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+This is the Plum Audio edition of the Mutable Instruments Ripples. It is a filter with a 12dB or 24dB low pass or a 12dB band pass which also has an internal VCA.
+It is missing the mechanical parts and the SSM2164 chip.&lt;/p&gt;
+&lt;h2 id=&#34;mbrane&#34;&gt;mBrane&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./mbrane.jpg&#34; alt=&#34;mBrane&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+This module will be my MIDI to CV bridge. It is based on the Mutable Instruments Yarns. It is obviously missing the mechanical parts. I did not solder the STM32, the DAC and the optocoupler yet, because I want to test the power rails first.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
